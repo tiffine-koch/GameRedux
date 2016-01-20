@@ -1,0 +1,55 @@
+body {
+  background-color: #66ffcc;
+}
+
+#grid {
+  margin-top: 20px;
+}
+
+.container{
+  border-width: medium;
+  border-width: 10px;
+  border-color: white;
+}
+
+.square {
+  background-color: red;
+  min-height: 100px;
+
+  border-style: solid;
+  border-width: 5px;
+  /*border-color: white;*/
+  border-color: #66ffcc;
+  border-radius: 5px;
+}
+p {
+  margin-top: 20px;
+  margin-left: 50px;
+  color: white;
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 32px;
+}
+button {
+  margin: 10px;
+}
+
+#playerName {
+  margin-top: 50px;
+}
+#push {
+  margin-top: 20px;
+}
+@media (max-width: 767px) {
+  .D {
+    display: none;
+  }
+}
+
+.winner, .h1 {
+  color: red;
+  font-family: helvetica;
+  font-style: cursive;
+  font-size: 32px;
+  margin-left: 700px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Redux</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>
+    <span>
+      <p id="x">Exes</p><p>+</p><p id="o">Ohs</p>
+    </span>
+  </h2>
+
+  <div class="container">
+      <h1 class="header winner"></h1>
+      <div id="grid" class="row">
+        <div data="1" class="square col-xs-6 col-md-4"></div>
+        <div data="2" class="square col-xs-6 col-md-4"></div>
+        <div data="3" class="square col-xs-6 col-md-4"></div>
+        <div data="4" class="square col-xs-6 col-md-4"></div>
+        <div data="5" class="square col-xs-6 col-md-4"></div>
+        <div data="6" class="square col-xs-6 col-md-4"></div>
+        <div data="7" class="square col-xs-6 col-md-4"></div>
+        <div data="8" class="square col-xs-6 col-md-4"></div>
+        <div data="9" class="square col-xs-6 col-md-4"></div>
+      </div>
+
+      <div id="playerName" class="row">
+        <form>
+          <div class="col-xs-4">
+            <label for="inputName">Name</label>
+            <input type="name" class="form-control" id="username" placeholder="Enter Player Name">
+            <button id="submit" class="btn btn-success">Submit</button>
+         </div>
+       </form>
+     </div>
+
+  </div>
+
+  <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>
