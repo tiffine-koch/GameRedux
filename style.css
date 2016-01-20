@@ -30,6 +30,10 @@ p {
   font-style: italic;
   font-size: 32px;
 }
+
+h3 {
+  margin-left: 100px;
+}
 button {
   margin: 10px;
 }
